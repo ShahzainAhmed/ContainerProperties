@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_print
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,7 +23,7 @@ class MyApp extends StatelessWidget {
               child: Container(
                 // alignment: Alignment.topLeft,
                 transform:
-                    Matrix4.rotationZ(.1), // for the rotation of container
+                    Matrix4.rotationZ(.1), // used for the rotation of container along z-axis
                 width: 300,
                 height: 300,
                 decoration: BoxDecoration(
